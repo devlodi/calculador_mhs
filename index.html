@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Mineração</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+  <h1>Calculadora de Mineração</h1>
+
+  <div class="input-group">
+    <label for="valorReais">Valor em Reais:</label>
+    <input type="number" id="valorReais" placeholder="Digite o valor em Reais">
+  </div>
+
+  <div class="input-group">
+    <label for="nomePlaca">Nome da Placa:</label>
+    <input type="text" id="nomePlaca" placeholder="Digite o nome da placa">
+  </div>
+
+  <div class="input-group">
+    <label for="mhsPlaca">Mhs da Placa:</label>
+    <input type="number" id="mhsPlaca" placeholder="Digite os Mhs da placa">
+  </div>
+
+  <button onclick="adicionarPlaca()">Adicionar Placa</button>
+
+  <div id="placasContainer"></div>
+
+  <div id="resultados"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
